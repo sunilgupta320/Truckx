@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-15T10:51:24 IST" name="Default suite" finished-at="2022-05-15T10:52:21 IST" duration-ms="57027">
+    <groups>
+    </groups>
+    <test started-at="2022-05-15T10:51:24 IST" name="Default test" finished-at="2022-05-15T10:52:21 IST" duration-ms="57027">
+      <class name="com.flipkart.test.functional.TestLoginSC_01">
+        <test-method is-config="true" signature="preSuite()[pri:0, instance:com.flipkart.test.functional.TestLoginSC_01@2e3967ea]" started-at="2022-05-15T10:51:24 IST" name="preSuite" finished-at="2022-05-15T10:51:24 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSuite -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.flipkart.test.functional.TestLoginSC_01@2e3967ea]" started-at="2022-05-15T10:51:24 IST" name="precondition" finished-at="2022-05-15T10:51:30 IST" duration-ms="6116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="TC1_Login()[pri:0, instance:com.flipkart.test.functional.TestLoginSC_01@2e3967ea]" started-at="2022-05-15T10:51:30 IST" name="TC1_Login" finished-at="2022-05-15T10:51:34 IST" duration-ms="3451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_Login -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.flipkart.test.functional.TestLoginSC_01@2e3967ea]" started-at="2022-05-15T10:51:34 IST" name="postCondition" finished-at="2022-05-15T10:51:34 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.flipkart.test.functional.TestLoginSC_01@2e3967ea]" started-at="2022-05-15T10:51:34 IST" name="precondition" finished-at="2022-05-15T10:51:39 IST" duration-ms="4882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="TC2_Login()[pri:0, instance:com.flipkart.test.functional.TestLoginSC_01@2e3967ea]" started-at="2022-05-15T10:51:39 IST" name="TC2_Login" finished-at="2022-05-15T10:51:40 IST" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_Login -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.flipkart.test.functional.TestLoginSC_01@2e3967ea]" started-at="2022-05-15T10:51:40 IST" name="postCondition" finished-at="2022-05-15T10:51:40 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.flipkart.test.functional.TestLoginSC_01@2e3967ea]" started-at="2022-05-15T10:51:40 IST" name="precondition" finished-at="2022-05-15T10:51:45 IST" duration-ms="4693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="TC3_Addtocart()[pri:0, instance:com.flipkart.test.functional.TestLoginSC_01@2e3967ea]" started-at="2022-05-15T10:51:45 IST" name="TC3_Addtocart" finished-at="2022-05-15T10:51:57 IST" duration-ms="12015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_Addtocart -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.flipkart.test.functional.TestLoginSC_01@2e3967ea]" started-at="2022-05-15T10:51:57 IST" name="postCondition" finished-at="2022-05-15T10:51:57 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.flipkart.test.functional.TestLoginSC_01@2e3967ea]" started-at="2022-05-15T10:51:57 IST" name="precondition" finished-at="2022-05-15T10:52:02 IST" duration-ms="5190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="TC4_Remove_product_from_cart()[pri:0, instance:com.flipkart.test.functional.TestLoginSC_01@2e3967ea]" started-at="2022-05-15T10:52:02 IST" name="TC4_Remove_product_from_cart" finished-at="2022-05-15T10:52:08 IST" duration-ms="6130" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'BDC11-L-FRH4PV2', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6e84c4d56b1370340b9195a5b5105571, isElementDisplayed {id=f1b30f49-0cc9-4ac5-8242-9db9b054e519}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\SUNILD~1.GUP\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60955/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6e84c4d56b1370340b9195a5b5105571)] -> xpath: //div[contains(text(),'Truckx')]]
+Session ID: 6e84c4d56b1370340b9195a5b5105571]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'BDC11-L-FRH4PV2', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6e84c4d56b1370340b9195a5b5105571, isElementDisplayed {id=f1b30f49-0cc9-4ac5-8242-9db9b054e519}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\SUNILD~1.GUP\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60955/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6e84c4d56b1370340b9195a5b5105571)] -> xpath: //div[contains(text(),'Truckx')]]
+Session ID: 6e84c4d56b1370340b9195a5b5105571
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:307)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+at com.flipkart.test.functional.TestLoginSC_01.TC1_Login(TestLoginSC_01.java:33)
+at com.flipkart.test.functional.TestLoginSC_01.TC4_Remove_product_from_cart(TestLoginSC_01.java:109)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4_Remove_product_from_cart -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.flipkart.test.functional.TestLoginSC_01@2e3967ea]" started-at="2022-05-15T10:52:08 IST" name="postCondition" finished-at="2022-05-15T10:52:09 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.flipkart.test.functional.TestLoginSC_01@2e3967ea]" started-at="2022-05-15T10:52:09 IST" name="precondition" finished-at="2022-05-15T10:52:15 IST" duration-ms="5899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="TC5_Navigate_to_Orderspage()[pri:0, instance:com.flipkart.test.functional.TestLoginSC_01@2e3967ea]" started-at="2022-05-15T10:52:15 IST" name="TC5_Navigate_to_Orderspage" finished-at="2022-05-15T10:52:21 IST" duration-ms="6436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5_Navigate_to_Orderspage -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.flipkart.test.functional.TestLoginSC_01@2e3967ea]" started-at="2022-05-15T10:52:21 IST" name="postCondition" finished-at="2022-05-15T10:52:21 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.flipkart.test.functional.TestLoginSC_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

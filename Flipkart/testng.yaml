@@ -1,0 +1,7 @@
+name: functionalSuite
+configFailurePolicy: skip
+tests:
+  - name: Test
+  classes:
+    - com.flipkart.test.functional.TestLoginSC_01
+
